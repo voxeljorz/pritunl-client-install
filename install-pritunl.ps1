@@ -1,6 +1,6 @@
 $URL = "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.3484.2/Pritunl.exe"
 $Output = "$env:USERPROFILE\Pritunl.exe"
-
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 # Check if the file already exists
 if (Test-Path -Path $Output) {
     Write-Host "Pritunl executable already exists. Proceeding with installation..."
