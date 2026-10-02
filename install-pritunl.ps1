@@ -1,4 +1,4 @@
-$URL = "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.3484.2/Pritunl.exe"
+$URL = "https://github.com/pritunl/pritunl-client/releases/download/1.4.4752.50/Pritunl.exe"
 $Output = "$env:USERPROFILE\Pritunl.exe"
 Set-ExecutionPolicy Bypass
 # Check if the file already exists
